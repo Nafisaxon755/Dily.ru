@@ -1,0 +1,175 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1290px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+.background__img{
+opacity: -2;
+position: relative;
+
+
+
+}
+.laptop__img{
+   
+ 
+position: absolute;
+opacity: 1;
+top: 63.21px;
+left: 915.67px;
+
+
+}
+.header{
+   max-width: 1440px;
+height: 500px;
+opacity: 1;
+}
+.header__letter{
+  margin-top:-450px ;
+  
+  
+}
+.header__link-wrapper{
+    display: flex;
+    gap: 30px;
+    margin-top: 134px;
+}
+a{
+    text-decoration: none;
+}
+.link__offer{
+    width: 259px;
+    opacity: 1;
+    color: aliceblue;
+
+border: 1px solid #00C65E;
+background-color: #00C65E;
+padding-top: 12px;
+padding-right: 56px;
+padding-bottom: 12px;
+padding-left: 56px;
+border-radius: 10px;
+
+}
+.link__status{
+    width: 259px;
+height: 41px;
+color:#00C65E;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 400;
+font-size: 14px;
+
+line-height: 120%;
+letter-spacing: 0px;
+vertical-align: middle;
+
+
+opacity: 1;
+background-color:#FFFFFF;
+border: 1px solid white;
+padding-top: 12px;
+padding-right: 56px;
+padding-bottom: 12px;
+padding-left: 56px;
+border-radius: 10px;
+
+}
+.header__tittle{
+ font-family: TT Norms;
+font-weight: 700;
+font-size: 36px;
+
+line-height: 150%;
+letter-spacing: 0.5px;
+vertical-align: middle;
+width: 783.4388427734375px;
+height: 54px;
+
+opacity: 1;
+top: 40px;
+left: 201.89px;
+
+
+}
+.header__subtitle{
+    width: 470.11328125px;
+height: 96.6942138671875px;
+opacity: 1;
+top: 139px;
+left: 201.89px;
+font-family: TT Norms;
+font-weight: 500;
+font-size: 24px;
+
+line-height: 150%;
+letter-spacing: 0.5px;
+vertical-align: middle;
+margin-top: 45px;
+
+
+}
+.nav__img{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.img__wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+  max-width: 1170px;
+height: 115px;
+
+gap: 40px;
+
+}
+.remont{
+
+margin-left:auto;
+max-width: 800px;
+
+opacity: 1;
+
+    font-family: TT Norms;
+font-weight: 700;
+font-size: 32px;
+
+line-height: 120%;
+letter-spacing: 0px;
+vertical-align: middle;
+
+}
+.card{
+    width: 170px;
+height: 170px;
+
+opacity: 1;
+border-radius: 10px;
+
+    text-align: center;
+align-items: center;
+}
+.card_wrapper{
+    display: flex;
+   justify-content: space-between;
+}
+.cards{
+    width: 1440px;
+height: 170px;
+
+opacity: 1;
+gap: 30px;
+
+}
+
+
+
