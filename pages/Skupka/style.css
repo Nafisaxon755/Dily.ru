@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Roboto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    height: 66vh;
+    background-image: url('./imgs/skupka\ main\ bg.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    box-shadow: 1px 2px 16px 3px #363A4514;
+    margin-bottom: 80px;
+}
+
+
+.main__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #00C65E;
+    margin-bottom: 47px;
+    padding-top: 40px;
+    width: 655px;
+}
+
+.main__text {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #363A45;
+    margin-bottom: 101px;
+    width: 520px;
+}
+
+.main__link {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0px;
+    color: #fff;
+    background-color: #00C65E;
+    padding: 12px 27px;
+    border-radius: 10px;
+    margin-bottom: 90px;
+}
+
+
+.benefits__wrapper {
+    display: flex;
+    gap: 46px;
+    margin-bottom: 160px;
+}
+
+.benefits__title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #363A45;
+    margin-bottom: 15px;
+}
+
+.benefits__card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.benefits__card-num {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    color: #00C65E;
+}
+
+.benefits__card-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #363A45;
+}
+
+.services {
+    margin-bottom: 80px;
+    padding: 50px;
+}
+
+.services__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    margin-bottom: 80px;
+}
+
+.services__card {
+    display: block;
+    max-width: 284px;
+    text-align: center;
+    box-shadow: 1px 2px 16px 3px #363A4514;
+    border-radius: 10px;
+    padding: 5px 22px 36px 22px;
+}
+
+.services__card-top {
+    height: 100%;
+    margin-top: -80px;
+}
+
+.services__card-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    color: #363A45;
+}
+
+.services__title {
+    width: 360px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #00C65E;
+}
+
+.services__title span {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+}
+
+.services__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services__inner h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: 0px;
+    color: #363A45;
+    margin-bottom: 20px;
+}
+
+.services__link {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0px;
+    color: #fff;
+    background-color: #00C65E;
+    padding: 12px 56px;
+    border-radius: 10px;
+}
+
+.services__inner p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 152%;
+    letter-spacing: 0px;
+    color: #363A45;
+    text-align: center;
+}
+
+.buy__wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+}
+
+.buy__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: 0px;
+    color: #363A45;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.buy__card {
+    text-align: center;
+    padding: 15px 12px 10px 12px;
+    box-shadow: 1px 2px 16px 3px #363A4514;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.buy__link {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+    color: #363A45;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.buy__inner {
+    display: flex;
+}
+
+.buy__inner h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #00C65E;
+    margin-bottom: 50px;
+}
