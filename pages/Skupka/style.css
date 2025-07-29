@@ -190,6 +190,10 @@ a {
     text-align: center;
 }
 
+.buy {
+    text-align: center;
+}
+
 .buy__wrapper {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -207,7 +211,10 @@ a {
 }
 
 .buy__card {
-    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 152%;
+    letter-spacing: 0px;
     padding: 15px 12px 10px 12px;
     box-shadow: 1px 2px 16px 3px #363A4514;
     margin-bottom: 15px;
@@ -230,6 +237,11 @@ a {
 
 .buy__inner {
     display: flex;
+    margin-bottom: 80px;
+}
+
+.buy__inner div {
+    text-align: center;
 }
 
 .buy__inner h1 {
@@ -237,7 +249,134 @@ a {
     font-size: 32px;
     line-height: 120%;
     letter-spacing: 0px;
-    text-align: center;
     color: #00C65E;
     margin-bottom: 50px;
+}
+
+.buy__inner a {
+    color: #fff;
+    padding: 12px 91px;
+    background-color: #00C65E;
+    border-radius: 10px;
+}
+
+.about {
+    text-align: center;
+}
+
+.about__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: 0px;
+    color: #363A45;
+    margin-bottom: 30px;
+}
+
+.about__wrapper {
+    display: flex;
+    gap: 70px;
+    margin-bottom: 80px;
+}
+
+.about__card-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    color: #363A45;
+    margin: 20px 0;
+}
+
+.about__card-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 152%;
+    letter-spacing: 0px;
+    color: #363A45;
+}
+
+.map {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.map__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: 0px;
+    color: #363A45;
+    margin-bottom: 15px;
+}
+
+.map__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 152%;
+    letter-spacing: 0px;
+    color: #363A45;
+    margin-bottom: 40px;
+}
+
+.contact {
+    text-align: center;
+    box-shadow: 1px 2px 16px 3px #363A4514;
+    background-color: #F7F7F7;
+    margin-bottom: 80px;
+    padding: 40px 0;
+}
+
+.contact__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: 0px;
+    color: #363A45;
+    margin-bottom: 10px;
+}
+
+.contact__subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 152%;
+    letter-spacing: 0px;
+    color: #363A45;
+    margin-bottom: 15px;
+}
+
+.contact__input {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #DADCDC;
+    border-radius: 10px;
+    padding: 12px 16px;
+    margin-right: 50px;
+}
+
+.contact__btn {
+    color: #fff;
+    background-color: #00C65E;
+    padding: 12px 56px;
+    border-radius: 10px;
+    border: 1px solid #00C65E;
+}
+
+.contact__text {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 152%;
+    letter-spacing: 0px;
+    color: #363A45;
+}
+
+.buying-items {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: #818187;
+    margin-bottom: 80px;
 }
