@@ -9,6 +9,11 @@
     --font-family: 'Manrope', sans-serif;
 }
 
+@font-face {
+    font-family: TT Norms;
+    src: url(../../assets/fonts/TTNorms-Black.otf);
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -583,4 +588,138 @@ h1 {
 
 .expand-link img {
     width: 16px;
+}
+
+@media (max-width: 1200px) {
+    .work-cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .hero-image-wrapper {
+        justify-content: center;
+    }
+    .ipad-main-image {
+        width: 550px;
+    }
+}
+
+@media (max-width: 992px) {
+    h1 {
+        font-size: 48px;
+    }
+    .section-title {
+        font-size: 32px;
+    }
+    .hero .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-content {
+        max-width: 100%;
+    }
+    .hero-content p {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ipad-main-image {
+        width: 450px;
+        margin-top: 40px;
+    }
+    .hero::before {
+        right: -450px;
+    }
+    .malfunctions-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .malfunctions-card {
+        padding: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 40px 0;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    .hero-content p {
+        font-size: 16px;
+    }
+    .ipad-main-image {
+        width: 350px;
+    }
+
+    .features {
+        padding: 60px 0;
+    }
+    .services-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 20px;
+    }
+    .models-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .model-card {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .malfunctions {
+        padding: 60px 0;
+    }
+    .malfunctions-grid {
+        grid-template-columns: 1fr;
+    }
+    .malfunctions-card {
+        padding: 30px 20px;
+    }
+    .section-title, .cta-title {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    .work-cards-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .final-cta-section, .questions-form-section, .seo-text-section {
+        padding: 60px 0;
+    }
+    
+    .contact-form {
+        gap: 30px;
+    }
+    .input-group, .input-group input, .contact-form .btn-primary {
+        width: 100%;
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    .section-title, .cta-title {
+        font-size: 24px;
+    }
+    .services-list {
+        gap: 30px 15px;
+    }
+    .service-item {
+        width: 120px;
+    }
+    .service-item p {
+        font-size: 14px;
+    }
+    .alt-contact a {
+        font-size: 18px;
+    }
 }
